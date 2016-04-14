@@ -15,6 +15,13 @@
 		F5D89F7C1CBF666900A9EFCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D89F7A1CBF666900A9EFCC /* LaunchScreen.storyboard */; };
 		F5D89F871CBF666A00A9EFCC /* LrdOutputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D89F861CBF666A00A9EFCC /* LrdOutputViewTests.m */; };
 		F5D89F921CBF666A00A9EFCC /* LrdOutputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D89F911CBF666A00A9EFCC /* LrdOutputViewUITests.m */; };
+		F5D89FA21CBF66A900A9EFCC /* LrdOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D89FA11CBF66A900A9EFCC /* LrdOutputView.m */; };
+		F5D89FAA1CBF7F7C00A9EFCC /* item_battle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D89FA41CBF7F7C00A9EFCC /* item_battle@2x.png */; };
+		F5D89FAB1CBF7F7C00A9EFCC /* item_chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D89FA51CBF7F7C00A9EFCC /* item_chat@2x.png */; };
+		F5D89FAC1CBF7F7C00A9EFCC /* item_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D89FA61CBF7F7C00A9EFCC /* item_list@2x.png */; };
+		F5D89FAD1CBF7F7C00A9EFCC /* item_school@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D89FA71CBF7F7C00A9EFCC /* item_school@2x.png */; };
+		F5D89FAE1CBF7F7C00A9EFCC /* item_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D89FA81CBF7F7C00A9EFCC /* item_share@2x.png */; };
+		F5D89FAF1CBF7F7C00A9EFCC /* schoolListItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D89FA91CBF7F7C00A9EFCC /* schoolListItem@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,14 @@
 		F5D89F8D1CBF666A00A9EFCC /* LrdOutputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LrdOutputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D89F911CBF666A00A9EFCC /* LrdOutputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LrdOutputViewUITests.m; sourceTree = "<group>"; };
 		F5D89F931CBF666A00A9EFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D89FA01CBF66A900A9EFCC /* LrdOutputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LrdOutputView.h; sourceTree = "<group>"; };
+		F5D89FA11CBF66A900A9EFCC /* LrdOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrdOutputView.m; sourceTree = "<group>"; };
+		F5D89FA41CBF7F7C00A9EFCC /* item_battle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_battle@2x.png"; sourceTree = "<group>"; };
+		F5D89FA51CBF7F7C00A9EFCC /* item_chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_chat@2x.png"; sourceTree = "<group>"; };
+		F5D89FA61CBF7F7C00A9EFCC /* item_list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_list@2x.png"; sourceTree = "<group>"; };
+		F5D89FA71CBF7F7C00A9EFCC /* item_school@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_school@2x.png"; sourceTree = "<group>"; };
+		F5D89FA81CBF7F7C00A9EFCC /* item_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_share@2x.png"; sourceTree = "<group>"; };
+		F5D89FA91CBF7F7C00A9EFCC /* schoolListItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schoolListItem@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +116,13 @@
 		F5D89F6B1CBF666900A9EFCC /* LrdOutputView */ = {
 			isa = PBXGroup;
 			children = (
+				F5D89F9F1CBF668B00A9EFCC /* LrdOutputView */,
 				F5D89F6F1CBF666900A9EFCC /* AppDelegate.h */,
 				F5D89F701CBF666900A9EFCC /* AppDelegate.m */,
 				F5D89F721CBF666900A9EFCC /* ViewController.h */,
 				F5D89F731CBF666900A9EFCC /* ViewController.m */,
 				F5D89F751CBF666900A9EFCC /* Main.storyboard */,
+				F5D89FA31CBF7F7C00A9EFCC /* image */,
 				F5D89F781CBF666900A9EFCC /* Assets.xcassets */,
 				F5D89F7A1CBF666900A9EFCC /* LaunchScreen.storyboard */,
 				F5D89F7D1CBF666900A9EFCC /* Info.plist */,
@@ -138,6 +155,28 @@
 				F5D89F931CBF666A00A9EFCC /* Info.plist */,
 			);
 			path = LrdOutputViewUITests;
+			sourceTree = "<group>";
+		};
+		F5D89F9F1CBF668B00A9EFCC /* LrdOutputView */ = {
+			isa = PBXGroup;
+			children = (
+				F5D89FA01CBF66A900A9EFCC /* LrdOutputView.h */,
+				F5D89FA11CBF66A900A9EFCC /* LrdOutputView.m */,
+			);
+			path = LrdOutputView;
+			sourceTree = "<group>";
+		};
+		F5D89FA31CBF7F7C00A9EFCC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F5D89FA41CBF7F7C00A9EFCC /* item_battle@2x.png */,
+				F5D89FA51CBF7F7C00A9EFCC /* item_chat@2x.png */,
+				F5D89FA61CBF7F7C00A9EFCC /* item_list@2x.png */,
+				F5D89FA71CBF7F7C00A9EFCC /* item_school@2x.png */,
+				F5D89FA81CBF7F7C00A9EFCC /* item_share@2x.png */,
+				F5D89FA91CBF7F7C00A9EFCC /* schoolListItem@2x.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5D89F7C1CBF666900A9EFCC /* LaunchScreen.storyboard in Resources */,
+				F5D89FAA1CBF7F7C00A9EFCC /* item_battle@2x.png in Resources */,
+				F5D89FAB1CBF7F7C00A9EFCC /* item_chat@2x.png in Resources */,
+				F5D89FAD1CBF7F7C00A9EFCC /* item_school@2x.png in Resources */,
+				F5D89FAC1CBF7F7C00A9EFCC /* item_list@2x.png in Resources */,
 				F5D89F791CBF666900A9EFCC /* Assets.xcassets in Resources */,
 				F5D89F771CBF666900A9EFCC /* Main.storyboard in Resources */,
+				F5D89FAE1CBF7F7C00A9EFCC /* item_share@2x.png in Resources */,
+				F5D89FAF1CBF7F7C00A9EFCC /* schoolListItem@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D89FA21CBF66A900A9EFCC /* LrdOutputView.m in Sources */,
 				F5D89F741CBF666900A9EFCC /* ViewController.m in Sources */,
 				F5D89F711CBF666900A9EFCC /* AppDelegate.m in Sources */,
 				F5D89F6E1CBF666900A9EFCC /* main.m in Sources */,
